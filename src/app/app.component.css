@@ -1,0 +1,65 @@
+.action-buttons {
+    padding-top: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  textarea.md-input {
+    padding: 8px;
+  }
+  
+  .outline {
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+  }
+  
+  .result-preview {
+    padding: 10px;
+    max-height: 350px;
+    overflow: auto;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .card {
+    width: 500px;
+    /* margin-left: 400px; */
+    border: solid 1px;
+    background-color: orange;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hp-footer {
+    width: 100%;
+    height: auto;
+    background-color: #010e28;
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    display: inline-block;
+}
+.container{
+  background-color: orange;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  /* .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+   */

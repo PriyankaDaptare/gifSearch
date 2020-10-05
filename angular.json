@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "markdownEditor": {
+    "gifSearch": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/markdownEditor",
+            "outputPath": "dist/gifSearch",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "markdownEditor:build"
+            "browserTarget": "gifSearch:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "markdownEditor:build:production"
+              "browserTarget": "gifSearch:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "markdownEditor:build"
+            "browserTarget": "gifSearch:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "markdownEditor:serve"
+            "devServerTarget": "gifSearch:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "markdownEditor:serve:production"
+              "devServerTarget": "gifSearch:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "markdownEditor"
+  "defaultProject": "gifSearch"
 }
